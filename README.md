@@ -2,7 +2,7 @@
 
 [hwcrypto.js](https://github.com/hwcrypto/hwcrypto.js) is a JavaScript library for web developers who work with hardware backed eID cards, alleviating the imminent ["nascar problem"](https://indieweb.org/NASCAR_problem) from proliferation of vendors and underlying platforms and technologies.
 
-It provides a vendor-neutral, high-level API, with a selection of shims on top of the zoo of plugins, extensions, services and API-s, allowing the developer to focus on building things that have value to users, instead of messing with technological plumbing.
+It provides a vendor-neutral, [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API), with a selection of shims on top of the zoo of plugins, extensions, services and API-s, allowing the developer to focus on building things that have value to users, instead of messing with technological plumbing.
 
 Being a collaboration platform for real-life integrators is another goal of this open source, MIT licensed effort.
 
