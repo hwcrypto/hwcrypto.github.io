@@ -12,6 +12,7 @@ TBD, see https://github.com/hwcrypto/hwcrypto.js/wiki and https://github.com/ope
 
 ## Related projects
 A bunch of efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
+
  * [WebCryptoAPI](https://www.w3.org/TR/WebCryptoAPI/)
    * :) [implemented by browser vendors](http://caniuse.com/#feat=cryptography)
    * :( [explicitly leaves out pre-provisioned hardware tokens](https://www.w3.org/TR/WebCryptoAPI/#scope-out-of-scope)
