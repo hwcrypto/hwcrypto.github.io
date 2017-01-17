@@ -17,7 +17,7 @@ A bunch of efforts are underway to define an API, to be implemented by browser v
    * :) [implemented by browser vendors](http://caniuse.com/#feat=cryptography)
    * :( [explicitly leaves out pre-provisioned hardware tokens](https://www.w3.org/TR/WebCryptoAPI/#scope-out-of-scope)
  * [Hardware Based Secure Services](https://rawgit.com/w3c/websec/gh-pages/hbss.html)
-   * :| similar API level, intended to be implemented by user agent vendors
+   * :&#124; similar API level, intended to be implemented by user agent vendors
    * :( no working sample code
    * :( [no interest from browser vendors](https://poulpita.com/2016/11/28/is-hardware-based-secure-web-services-a-lost-quest-no-well/)
  * [Web API For Accessing Secure Element](http://globalplatform.github.io/WebApis-for-SE/doc/)
@@ -31,7 +31,7 @@ A bunch of efforts are underway to define an API, to be implemented by browser v
 Some other initiatives with working code and standardisation efforst exist, that allow to bridge the gap between a website and a hardware token, by exposing a common "transport mechanism" to JavaScript:
 
  * [WebUSB](https://wicg.github.io/webusb/)
-   * :| low level USB access, would require to implement something like [CCID](https://en.wikipedia.org/wiki/CCID_(protocol)) by a JavaScript library, to talk APDU-s to a smart card token. Possible, but not very viable. Desktop-oriented.
+   * :&#124; low level USB access, would require to implement something like [CCID](https://en.wikipedia.org/wiki/CCID_(protocol)) by a JavaScript library, to talk APDU-s to a smart card token. Possible, but not very viable. Desktop-oriented.
  * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
-   * :| low level Bluetooth access, would require to implement bluetooth connectivity to a smart card reader/token, to transfer APDU-s to smart cards. Possible, but not very viable. Mobile-oriented.
+   * :&#124; low level Bluetooth access, would require to implement bluetooth connectivity to a smart card reader/token, to transfer APDU-s to smart cards. Possible, but not very viable. Mobile-oriented.
    * :( no standardisation of bluetooth smart card readers
