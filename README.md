@@ -4,6 +4,8 @@
 
 It provides a vendor-neutral, [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API), with a selection of shims on top of the zoo of plugins, extensions, services and API-s, allowing the developer to focus on building things that have value to users, instead of messing with technological plumbing.
 
+The library follows [semantic versioning](http://semver.org/) and a simple [test site](https://hwcrypto.github.io/demo/) is available.
+
 Being a collaboration platform for real-life integrators is another goal of this open source, MIT licensed effort.
 
 ## History
