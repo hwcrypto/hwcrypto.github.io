@@ -1,10 +1,15 @@
 # About
 
-[hwcrypto.js](https://github.com/hwcrypto/hwcrypto.js) is a JavaScript library for web developers who work with hardware backed eID cards, alleviating the imminent ["nascar problem"](https://indieweb.org/NASCAR_problem) from proliferation of vendors and underlying platforms and technologies.
+<img align="right" src="icon/hwcrypto_icon.png" width="200px">
+[hwcrypto](https://github.com/hwcrypto) is a techie umbrella name for a set of specifications, software and API-s, to enable the use of PKI based eID cards on the web. It is designed to be vendor neutral and horizontally re-usable, to compete with the proliferation of proprietary, sector-specific vertical implementation silos and the resulting ["nascar problem"](https://indieweb.org/NASCAR_problem) effect on end-users and integrators alike.
 
-It provides a vendor-neutral, [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API), with a selection of shims on top of the zoo of plugins, extensions, services and API-s, allowing the developer to focus on building things that have value to users, instead of messing with technological plumbing.
+It consists of three major parts:
 
-The library follows [semantic versioning](http://semver.org/) and a simple [test site](https://hwcrypto.github.io/demo/) is available.
+* [hwcrypto.js](https://github.com/hwcrypto/hwcrypto.js) is a JavaScript library for web developers who work with hardware backed eID cards, providing a [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API) that allows for the developer to focus on building things that have value to users, instead of messing with technological plumbing. The library follows [semantic versioning](http://semver.org/) and a simple [test site](https://hwcrypto.github.io/demo/) is available.
+
+* [hwcrypto-extension](https://github.com/hwcrypto-extension) is a modern WebExtension (Chrome extension) reference implementation that provides access to cryptographic smart card services of the host computer via Native Messaging. The extension is available for Chrome/Chromium, Firefox and Opera.
+
+* [hwcrypto-native](https://github.com/hwcrypto-native) is the Native Messaging counterpart for the browser extension, with installers available for Windows, macOS and Linux. It is intended to be re-packaged, branded and distributed as needed by vendors.
 
 Being a collaboration platform for real-life integrators is another goal of this open source, MIT licensed effort.
 
@@ -13,7 +18,7 @@ TBD, see https://github.com/hwcrypto/hwcrypto.js/wiki and https://github.com/ope
 
 
 ## Related projects
-A bunch of efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
+A bunch of other efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
 
  * [WebCryptoAPI](https://www.w3.org/TR/WebCryptoAPI/)
    * :) [implemented by browser vendors](http://caniuse.com/#feat=cryptography)
