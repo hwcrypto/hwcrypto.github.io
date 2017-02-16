@@ -6,7 +6,7 @@
 
 It consists of three major parts:
 
-* [hwcrypto.js](https://github.com/hwcrypto/hwcrypto.js) (MIT) is a JavaScript library for web developers who work with hardware backed eID cards, providing a [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API) that allows for the developer to focus on building things that have value to users, instead of messing with technological plumbing. The library follows [semantic versioning](http://semver.org/) and a simple [demo site](https://hwcrypto.github.io/demo/) is available.
+* [hwcrypto.js](https://github.com/hwcrypto/hwcrypto.js) (MIT) is a JavaScript library for web developers who work with hardware backed eID cards, providing a [high-level API](https://github.com/hwcrypto/hwcrypto.js/wiki/API) that allows for the developer to focus on building things that have value to users, instead of messing with the underlying technological plumbing. The library follows [semantic versioning](http://semver.org/) and a simple [demo site](https://hwcrypto.github.io/demo/) is available.
 
 * [hwcrypto-extension](https://github.com/hwcrypto/hwcrypto-extension) (LGPL) is a reference implementation of a modern broser extension that provides access to cryptographic smart card services of the host computer via [Native Messaging](https://developer.chrome.com/extensions/nativeMessaging). The extension is available for Chrome/Chromium, Firefox and Opera.
 
