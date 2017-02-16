@@ -1,6 +1,6 @@
 # About
 
-<img align="right" src="icon/hwcrypto_icon.png" width="200px">
+<img align="right" src="icon/hwcrypto_icon.png" width="200px" style="padding: 1em">
 [hwcrypto](https://github.com/hwcrypto) is a techie umbrella name for a set of specifications, software and API-s, to enable the use of PKI based eID cards on the web. It is designed to be vendor neutral and horizontally re-usable, to compete with the proliferation of proprietary, sector-specific vertical implementation silos and the resulting ["nascar problem"](https://indieweb.org/NASCAR_problem) effect on end-users and integrators alike.
 
 It consists of three major parts:
