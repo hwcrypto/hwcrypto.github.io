@@ -1,5 +1,3 @@
-# About
-
 <img align="right" src="icon/hwcrypto_icon.png" width="200px" style="padding: 1em">
 
 [hwcrypto](https://github.com/hwcrypto) is a umbrella name for a set of specifications, software and API-s, to enable the use of PKI based eID cards on the web for signing and authentication. It is designed to be vendor neutral and horizontally re-usable, to compete with the proliferation of proprietary, sector-specific vertical implementation silos and to avoid the resulting ["nascar problem"](https://indieweb.org/NASCAR_problem) on end users and integrators alike.
@@ -15,6 +13,10 @@ It consists of three major parts:
 * [hwcrypto-native](https://github.com/hwcrypto/hwcrypto-native) (LGPL, formerly [chrome-token-signing](https://github.com/open-eid/chrome-token-signing)) is the Native Messaging counterpart of the browser extension, with installers available for Windows, macOS and Linux. It is intended to be extended, branded, repackaged and redistributed by vendors and service providers, as needed. The installer is the only component end users should interact with.
 
 Being a collaboration platform for real-life integrators is another goal of this open source effort.
+
+## Architecture overview
+
+![hwcrypto architecture](http://i.imgur.com/85fyzrC.png)
 
 ## Related projects
 A bunch of other efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
