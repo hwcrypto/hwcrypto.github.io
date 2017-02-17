@@ -1,6 +1,6 @@
 <img align="right" src="icon/hwcrypto_icon.png" width="200px" style="padding: 1em">
 
-[hwcrypto](https://github.com/hwcrypto) is a umbrella name for a set of specifications, software and API-s, to enable the use of PKI based eID cards on the web for signing and authentication. It is designed to be vendor neutral and horizontally re-usable, to compete with the proliferation of proprietary, sector-specific vertical implementation silos and to avoid the resulting ["nascar problem"](https://indieweb.org/NASCAR_problem) on end users and integrators alike.
+[hwcrypto](https://github.com/hwcrypto) is a umbrella name for a set of specifications, software and API-s, to enable the use of X509 PKI based eID cards on the web for signing and authentication. It is designed to be vendor neutral and horizontally re-usable, to compete with the proliferation of proprietary, sector-specific vertical implementation silos and to avoid the resulting ["nascar problem"](https://indieweb.org/NASCAR_problem) on end users and integrators alike.
 
 (Note on naming: the techie name "hwcrypto" is only visible to developers, not end users)
 
@@ -19,7 +19,7 @@ Being a collaboration platform for real-life integrators is another goal of this
 ![hwcrypto architecture](http://i.imgur.com/laDJEnU.png)
 
 ## Related projects
-A bunch of other efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
+A bunch of other efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptography, including hardware devices.
 
  * [WebCryptoAPI](https://www.w3.org/TR/WebCryptoAPI/)
    * :) [implemented by browser vendors](http://caniuse.com/#feat=cryptography)
@@ -36,7 +36,7 @@ A bunch of other efforts are underway to define an API, to be implemented by bro
    * :) [being implemented](http://caniuse.com/#feat=u2f)
    * :( only authentication, and scoped credentials
 
-Some other initiatives with working code and standardisation efforst exist, that allow to bridge the gap between a website and a hardware token, by exposing a common "transport mechanism" to JavaScript:
+Some other initiatives with working code and standardisation efforts exist, that allow to bridge the gap between a website and a hardware token, by exposing a common "transport mechanism" to JavaScript:
 
  * [WebUSB](https://wicg.github.io/webusb/)
    * :&#124; low level USB access, would require to implement something like [CCID](https://en.wikipedia.org/wiki/CCID_(protocol)) by a JavaScript library, to talk APDU-s to a smart card token. Possible, but not very viable. Desktop-oriented.
