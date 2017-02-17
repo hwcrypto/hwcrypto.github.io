@@ -16,7 +16,7 @@ Being a collaboration platform for real-life integrators is another goal of this
 
 ## Architecture overview
 
-![hwcrypto architecture](http://i.imgur.com/85fyzrC.png)
+![hwcrypto architecture](http://i.imgur.com/laDJEnU.png)
 
 ## Related projects
 A bunch of other efforts are underway to define an API, to be implemented by browser vendors, to facilitate access to cryptographic hardware.
