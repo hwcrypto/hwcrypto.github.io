@@ -1,0 +1,11 @@
+{
+  "addons": {
+    "native@hwcrypto.org": {
+      "updates": [
+        { "version": "17.2.17.7",
+          "update_link": "https://hwcrypto.org/web_eid-17.2.17.7-an+fx.xpi"
+        }
+      ]
+    }
+  }
+}
